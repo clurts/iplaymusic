@@ -1,0 +1,65 @@
+<%- include('../partials/before-header.ejs') %>
+<div class="wrapper">
+
+    <div class="topnav">
+        <ion-icon name="chevron-back"></ion-icon>
+        <p class="topnav__text">categories</p>
+        <ion-icon name="search"></ion-icon>
+    </div>
+
+    <%- include('../partials/header.ejs', { brand: 'Categories' })  %>
+    <main>
+        <ul class="categoryList">
+
+            <li class="categoryList__item">
+                <button class="categoryList__button">
+                    <span class="categoryList__name">Alternative</span>
+                    <ion-icon name="ellipsis-horizontal"></ion-icon>
+                </button>
+            </li>
+            <li class="categoryList__item">
+                <button class="categoryList__button">
+                    <span class="categoryList__name">Blues</span>
+                    <ion-icon name="ellipsis-horizontal"></ion-icon>
+                </button>
+
+                <ul class="subCategoryList">
+                    <li class="subCategoryList__item">
+                        <a href="">
+                            <span class="subCategoryList__name">Categorylist</span>
+                            <ion-icon name="chevron-forward"></ion-icon>
+                        </a>
+                    </li>
+                    <li class="subCategoryList__item">
+                        <span class="subCategoryList__name">Categorylist</span>
+                        <ion-icon name="chevron-forward"></ion-icon>
+                    </li>
+                    <li class="subCategoryList__item">
+                        <span class="subCategoryList__name">Categorylist</span>
+                        <ion-icon name="chevron-forward"></ion-icon>
+                    </li>
+                    <li class="subCategoryList__item">
+                        <span class="subCategoryList__name">Categorylist</span>
+                        <ion-icon name="chevron-forward"></ion-icon>
+                    </li>
+
+                </ul>
+            </li>
+            <li class="categoryList__item">
+                <button class="categoryList__button">
+                    <span class="categoryList__name">Categorylist</span>
+                    <ion-icon class="ion-2x" name="ellipsis-horizontal"></ion-icon>
+                </button>
+            </li>
+            <li class="categoryList__item">
+                <button class="categoryList__button">
+                    <span class="categoryList__name">Categorylist</span>
+                    <ion-icon name="ellipsis-horizontal"></ion-icon>
+                </button>
+            </li>
+        </ul>
+    </main>
+    <%- include('../partials/footer.ejs') %>
+</div>
+
+<%- include('../partials/after-footer.ejs') %>

@@ -1,0 +1,14 @@
+.topnav {
+    display: flex;
+    justify-content: space-between;
+
+    &_inverted {
+        color: white
+    }
+
+    &__text {
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+}

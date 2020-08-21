@@ -1,0 +1,25 @@
+.categoryList {
+    list-style-type: none;
+    margin: 0 0 1em;
+    padding: 0;
+
+    &__item {
+        margin: 1em 0 ;
+        position: relative;
+
+    }
+    &__button {
+        background-color: $deeppink;
+        font-family: $font-stack;
+        padding: 1.1rem;
+        display: flex;
+        font-size: 1rem;
+        width: 100%;
+        justify-content: space-between;
+        border-radius: 0.5rem;
+        border:none;
+        color: #fff;
+        font-weight: 700;
+    }
+    
+}

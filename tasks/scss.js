@@ -10,6 +10,7 @@ function scss() {
         .src("./src/scss/**/*.scss")
         .pipe(sourcemaps.init())
         .pipe(sass({ outputStyle: 'expanded' }))
+
         .pipe(sourcemaps.write())
         .pipe(gulp.dest("tmp/assets/css"))
         .pipe(connect.reload());

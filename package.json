@@ -1,0 +1,34 @@
+{
+  "name": "iplaymusic",
+  "version": "1.0.0",
+  "description": "This is a template for my gulp ejs and sass projects",
+  "main": "gulpfile.js",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clurts/iplaymusic.git"
+  },
+  "author": "Carsten Lund",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/clurts/iplaymusic/issues"
+  },
+  "homepage": "https://github.com/clurts/iplaymusic#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-ejs": "^5.1.0",
+    "gulp-imagemin": "^7.1.0",
+    "gulp-rename": "^2.0.0",
+    "gulp-sass": "^4.1.0",
+    "gulp-sourcemaps": "^2.6.5",
+    "node-sass": "^4.14.1"
+  }
+}

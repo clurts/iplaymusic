@@ -1,0 +1,43 @@
+.song {
+    margin: 1rem 0;
+    display: grid;
+    grid-template-columns: 3rem 1fr 4rem;
+    grid-template-rows: auto auto;
+    grid-auto-flow: column;
+    align-items: center;
+
+    &__play {
+        grid-row-end: span 2;
+        width: 2rem;
+        height: 2rem;
+        text-align: center;
+        padding-left: 0.25rem;
+        padding-top: 0.3rem;
+        box-sizing: border-box;
+        border-radius: 50%;
+        background: $gradient;
+        border: none;
+        color: white;
+        font-size: 1.1rem;
+        text-decoration: none;
+    }
+    &__title,
+    &__artist {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    &__title {
+        margin:0 0 0.25rem;
+        font-weight: 700;
+    }
+    &__artist {
+        font-size: 0.75rem;
+        margin:0;
+    }
+    &__duration {
+        margin: 0;
+        grid-row-end: span 2;
+        justify-self: end;
+    }
+}

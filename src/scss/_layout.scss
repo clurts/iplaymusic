@@ -1,23 +1,15 @@
-body{
-    background-color: red;
-    border: blue solid 3px;
-    font: 100% $font-stack;
-    color: $primary-color;
+.wrapper {
+    padding: 1.666rem;
+    margin-bottom: 2rem;
 }
-
 article {
-    width: 30em;
+    max-width: 30em;
     margin: 0 auto;
 }
-
-
-@include mq(48em) {
-    body {
-        background-color: palegoldenrod;
-    }
-}
-@include mq(64em) {
-    body {
-        background-color: plum;
-    }
+.featuredCard {
+    height: 0;
+    padding-top: 131%;
+    background-color: $turqoise;
+    margin: 2rem 0;
+    box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.30);
 }

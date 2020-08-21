@@ -1,4 +1,24 @@
-<%- include('../partials/before-header')  %>
+<!DOCTYPE html>
+<html lang="da">
+
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    
+
+<title>My precious title</title>
+
+</head>
+
+
+
+
+
+    <body>
+        
 <div class="wrapper">
 
     <div class="topnav">
@@ -6,7 +26,13 @@
         <p class="topnav__text">Featured</p>
         <ion-icon name="search"></ion-icon>
     </div>
-    <%- include('../partials/header.ejs', { brand: 'Featured' })  %>
+    
+
+<header>
+    
+    <h1 class="brand">Featured</h1>
+    
+</header>
 
     <div class="song">
         <a href="#" class="song__play">
@@ -34,7 +60,14 @@
     </div>
 
 
-    <%- include('../partials/navigation') %>
+    <nav class="navigation">
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/products">Produkter</a></li>
+        <li><a href="/contact">Kontakt</a></li>
+        <li><a href="/prettypictures">Link d</a></li>
+    </ul>
+</nav>
 
     <input type="range" name="bla" id="bla" min="0" max="100" value="0" step="1">
 
@@ -56,7 +89,13 @@
         <ion-icon name="contrast"></ion-icon>
         <ion-icon name="settings"></ion-icon>
 </div>
-<%- include('../partials/footer.ejs') %>
+<footer>
+    <p>Copyright &copy; 2020</p>
+</footer>
 </div>
 
-<%- include('../partials/after-footer.ejs') %>
+<script type="module" src="/assets/js/index.js"></script>
+<script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+</body>
+
+</html>

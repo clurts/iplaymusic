@@ -1,0 +1,25 @@
+.subCategoryList {
+    list-style-type: none;
+    margin: 1em 0 ;
+    padding: 0;
+    transition: max-height 0.2s ease-out;
+        max-height:100%;
+
+    &__item {
+        padding: 0.5rem 1rem;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 0.5rem;
+        color: $secondary;
+        cursor: pointer;
+        
+        overflow:hidden;
+    }
+
+}
+
+
+.ion-2x:before {
+    position: relative;
+    font-size: 2em;
+  }
